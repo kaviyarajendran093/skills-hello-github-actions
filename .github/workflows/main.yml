@@ -1,0 +1,8 @@
+name: "My first workflow"
+on: pull_request
+jobs:
+  greet:
+     runs-on: ubuntu-latest
+     steps:
+     - name: say hello
+       run: echo "Hello, World!"
